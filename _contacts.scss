@@ -1,0 +1,137 @@
+
+#contacts{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: white;
+    width: 100vw;
+  }
+  
+  
+  #contact-list{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  #contacts-text{
+    text-align: left;    
+    font-family: Century Gothic;
+    #contacts-title{
+      font-size: 2vw;
+      color: $pink1;
+      margin: 2vw 0 0;
+    }
+  }
+  
+  #contacts-description{
+    font-size: 1vw;
+    margin: 0;
+  }
+  
+  .contacts-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vw;
+    ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    li{
+      display: flex;
+      list-style-type: none;
+      padding: 0 2vw 0 2vw;
+    a{
+    color: black;
+    text-decoration: none;
+    font-size: 3vw;
+    }
+    }
+    }
+  }
+  
+  .contacts-icons ul li a:hover{
+    color: $pink1;
+  }
+  
+  .contacts-icons ul li a:active{
+    color: $pink1;
+  }
+  
+  #bottom-image{
+    display: flex;
+    align-self: flex-end;
+    width: 20vw;
+    min-width: 20vw;
+  }
+  
+  #contact-image{
+    width: 20vw;
+    min-width: 20vw;
+    margin: 0;
+  }
+  
+  #form{
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  #form-text{
+    text-align: left;    
+    font-family: Century Gothic;
+    #form-title{
+      font-size: 2vw;
+      color: $pink1;
+      margin: 2vw 0 0;
+    }
+  }
+  
+  #form-description{
+     font-size: 1vw;
+    margin: 0;
+  }
+  
+  #form-box{
+    margin: 1vw 0 2vw;
+    display: flex;
+  }
+  
+  #email{
+    width: 15vw;
+    padding: .5vw 1vw;
+    background: white;
+    border-radius: 5vw;
+    border: .2vw solid black;
+    font-family: century gothic;
+    text-decoration: none;
+    font-size: .8vw;
+  }
+  
+  #email:hover{
+    background: white;
+    border: .2vw solid $pink1;
+    color: $pink1;
+  }
+  
+  #submit{
+    background: $pink4;
+    color: white;
+    padding: .5vw 1vw;
+    border: none;
+    border-radius: 4vw;
+    cursor: pointer;
+    font-size: .8vw;
+    font-weight: bold;
+    font-family: century gothic;
+  }
+  
+  #submit:hover {
+    background: transparent;
+    border: .5vw;
+    color: $pink1;
+  }
